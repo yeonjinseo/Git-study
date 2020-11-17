@@ -1,0 +1,39 @@
+h1{
+    color: red;
+    font-size: 20px;
+}
+.brand{
+    color:blue;
+}
+h1{
+    color: green;
+}
+
+.logo{
+    color: purple;
+}
+
+.lecture-list li{
+    font-size: 12px;
+}
+
+h2{background-color: yellow;
+}
+.web-list a[target]{
+color: red;
+}
+#cover{
+    border: 5px solid green;
+}
+
+.study-list li:first-child{
+    background-color: skyblue  ;
+}
+
+.study-list li:last-child{
+    background-color: orange;
+}
+
+.study-list li:nth-child(2){
+    font-size: 30px;
+}
