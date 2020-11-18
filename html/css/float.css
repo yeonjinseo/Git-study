@@ -15,7 +15,7 @@ body{
 
 .wrapper{
     width: 100%;
-    background-color: blue;
+    background-color: #8e81a8;
 }
 
 .wrapper::after{
@@ -25,7 +25,7 @@ body{
 }
 
 .navigation{
-    background-color: #e6ceff);
+    background-color: #efe5fa);
     width: 25%;
     float: right;
     height: 70vh;
@@ -49,13 +49,13 @@ body{
 
 .sidebar{
     width: 30%;
-    background-color: #e6ceff;
+    background-color: #af9cc4;
     height: 70vh;
     float: left;
 }
 
 .footer{
     width: 100%;
-    background-color: #ff8282;
+    background-color: #836fa9;
     height: 15vh;
 }
