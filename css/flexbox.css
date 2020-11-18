@@ -1,0 +1,36 @@
+body{
+margin: 0;
+}
+.container{
+    background-color: yellow;
+    list-style-type: none;
+    padding-left: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.item{
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+.item1{
+    background-color: pink;
+    flex-shrink: 2;
+    order: 1;
+}
+.item2{
+    background-color: rgb(237, 243, 151);
+    flex-grow: 2;
+}
+.item3{
+    background-color: rgb(196, 192, 255);
+    align-self: flex-end;
+}
+.item4{
+    background-color: rgb(192, 255, 208);
+    order: -1;
+}

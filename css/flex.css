@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items: ;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    color: #fefefe;
+    background-color:#181818;
+    background-image: url(./../img/unsplash1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.box{
+    width: 100vw;
+    margin: 0;
+    font-size: 6em;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
