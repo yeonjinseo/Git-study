@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #b39ddb;
+    width: 100%;
+    height: 15vh;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: blue;
+}
+
+.wrapper::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.navigation{
+    background-color: #e6ceff);
+    width: 25%;
+    float: right;
+    height: 70vh;
+}
+.content{
+    width: 75%;
+    background-color: #ffab91;   
+    float: left;
+}
+
+
+
+
+.main{
+    width: 70%;
+    background-color: #e6ceff;
+    height: 70vh;
+    float: right;
+
+}
+
+.sidebar{
+    width: 30%;
+    background-color: #e6ceff;
+    height: 70vh;
+    float: left;
+}
+
+.footer{
+    width: 100%;
+    background-color: #ff8282;
+    height: 15vh;
+}

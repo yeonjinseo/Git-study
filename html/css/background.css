@@ -2,7 +2,7 @@ body{
     height: 100vh;
     color: #fefefe;
     background-color:#181818;
-    background-image: url(./../img/unsplash1.jpg);
+    background-image: url(./../../img/unsplash1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
